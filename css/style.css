@@ -388,7 +388,8 @@ div#msgdiv {
     display: flex;
     align-items: center;
     justify-content: center;    margin: 10px 0 0;
-}
+}.dizme_tm_contact .left .icon {
+    width: 100px;}
 }
 
 

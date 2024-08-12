@@ -1116,9 +1116,9 @@ button.slick-prev.slick-arrow {right: 11%;}
 
 
 @media (max-width: 767px){
-.hero__heading .hero_midle_heading h1 { font-size: 3rem;}
+.hero__heading .hero_midle_heading h1,.about_bnr .hero__heading .hero_midle_heading h1 { font-size: 3rem;justify-content: center;}
 .hero__heading .hero_midle_heading h1 img {
-    width: 200px;
+    width: 170px;height: auto;
 }
 .project_exp_box p {font-size: 0.9rem;}
 .project_exp_box h4 {font-size: 2.5rem;}
@@ -1128,7 +1128,7 @@ button.slick-prev.slick-arrow {right: 11%;}
 svg.philosopy_img {
     height: 300px;
 }p.bottom_statement img {
-    width: 66px;
+    width: 66px;        margin: 0;
 }
 p.bottom_statement {
     font: normal normal 600 22px / 1.2 var(--font);
@@ -1165,9 +1165,9 @@ p.bottom_statement {
 }.interviews_list>div {
     gap: 10px;
 }button.slick-prev.slick-arrow {
-    right: 18%;
+    right: 24%;
 }.main__heading h4 {
-    font: normal normal 300 25px / 1.5 var(--font);
+    font: normal normal 300 22px / 1.5 var(--font);
 }.main__heading h4 img{    height: 30px;}
 .footer_inner h4 {
     font: normal normal 500 25px / 1.5 var(--font-heading);}
@@ -1186,10 +1186,45 @@ p.bottom_statement {
 .project_exp_box {
     width: 33%;
 }.project_exp_box.position-relative.project_exp_box1 {
-    margin-left: 34px;
+    margin-left: 22px;
     width: 20%;
 }.project_exp_box::before {
-    left: -62%;
-    width: 170px;
-    height: 105%;}
+    left: -43%;
+        width: 131px;
+        height: 90%;}
+.details_project h2 {
+    font: normal normal 300 25px / 1.1 var(--font-heading-main);
+}
+span.projectCard_count {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+}
+p {
+    font: normal normal 300 14px / 1.5 var(--font);
+}.casestudy-slider {
+    max-height: max-content;    margin-bottom: 0 !important;
+}button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+    bottom: 0;}.slider__achiev .item h5 a {
+    font: normal normal 300 23px / 1.1 var(--font-heading-main);}.footer_links ul.list-unstyled {
+    flex-wrap: wrap;
+}.about_bnr .hero__heading .hero_midle_heading h1 img.animate__tilt {        height: 318px;
+    object-fit: contain;}.hero__heading .hero_midle_heading h1 span.animate__right {
+    margin-top: 229px;
+}.main-marq.md-text .box .item h4 {
+    font: normal normal normal 20px / 1 var(--font-heading-main);
+}
+}
+
+
+
+@media (max-width: 480px){
+    .hero__heading .hero_midle_heading h1 img {
+        width: 150px;
+    }    .hero__heading .hero_midle_heading h1,.about_bnr .hero__heading .hero_midle_heading h1 {
+        font-size: 2.5rem;
+    }    .main__heading h4 img {
+        height: 26px;
+    }
+
 }

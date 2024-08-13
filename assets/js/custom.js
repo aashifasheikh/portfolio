@@ -209,6 +209,12 @@ $(function () {
     });
 
 
+    $(".navbar-nav a").on('click', function () {
+           $("#burger").removeClass('active');
+        $(" #navmenu, #nav-overlay, #navmenu_box").removeClass("open");
+    });
+
+
 
     $(window).resize(resizeNav);
     resizeNav();

@@ -1331,7 +1331,7 @@ p {
 }button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
     bottom: 0;}.slider__achiev .item h5 a {
     font: normal normal 300 23px / 1.1 var(--font-heading-main);}.footer_links ul.list-unstyled {
-    flex-wrap: wrap;
+    flex-wrap: wrap;gap: 5px !important;
 }.about_bnr .hero__heading .hero_midle_heading h1 img.animate__tilt {        height: 250px;
     object-fit: contain;}
   .about_bnr  .hero__heading .hero_midle_heading h1 span.animate__right {

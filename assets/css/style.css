@@ -1255,7 +1255,7 @@ svg.philosopy_img {
     width: 66px;        margin: 0;
 }
 p.bottom_statement {
-    font: normal normal 600 22px / 1.2 var(--font);
+    font: normal normal 600 22px / 1.5 var(--font);
 }p.signature {
     font-size: 20px;
 }.hero__heading p {
@@ -1266,7 +1266,7 @@ p.bottom_statement {
     right: 0;
 }
 .main__heading h2 {
-    font: normal normal 300 40px / 1.5 var(--font-heading-main);
+    font: normal normal 300 35px / 1.5 var(--font-heading-main);
 }span.sub_heading {
     font: normal normal bold 14px / 1 var(--font);
 }.tp-service-area {
@@ -1326,18 +1326,27 @@ span.projectCard_count {
 }
 p {
     font: normal normal 300 14px / 1.5 var(--font);
-}.casestudy-slider {
+}.casestudy-slider {    margin-top: 0 !important;
     max-height: max-content;    margin-bottom: 0 !important;
 }button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
     bottom: 0;}.slider__achiev .item h5 a {
     font: normal normal 300 23px / 1.1 var(--font-heading-main);}.footer_links ul.list-unstyled {
     flex-wrap: wrap;
-}.about_bnr .hero__heading .hero_midle_heading h1 img.animate__tilt {        height: 318px;
+}.about_bnr .hero__heading .hero_midle_heading h1 img.animate__tilt {        height: 250px;
     object-fit: contain;}
   .about_bnr  .hero__heading .hero_midle_heading h1 span.animate__right {
-    margin-top: 229px;
+    margin-top: 145px;
 }.main-marq.md-text .box .item h4 {
     font: normal normal normal 20px / 1 var(--font-heading-main);
+}.hero__heading p.sub__heading span {
+    font: normal normal 500 25px / 1 var(--font);}.hero__heading p.sub__heading img {
+    height: 75px;
+}.statement_box .myself_img {
+    width: 100px;
+    margin: 0 0 30px;
+}.statement_box h3.myself_h3 {
+    font-size: 20px;
+    line-height: 1.5;
 }
 }
 
@@ -1345,9 +1354,9 @@ p {
 
 @media (max-width: 480px){
     .hero__heading .hero_midle_heading h1 img {
-        /*width: 150px;*/
+        width: 150px;
     }    .hero__heading .hero_midle_heading h1,.about_bnr .hero__heading .hero_midle_heading h1 {
-        /*font-size: 2.5rem;*/
+        font-size: 2.5rem;
     }    .main__heading h4 img {
         height: 26px;
     }

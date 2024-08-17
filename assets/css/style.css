@@ -1556,9 +1556,8 @@ footer#contact:before {
   padding-right: 2rem;
 }
 .projects .project_13 .projects_img img {
-    height: 435px !important;
-    margin: 25px 0 -25px -30px !important;
-}
+    height: 435px;
+    margin: 25px 0 -25px -30px;}
 .projects .project_common .consumer_crd {
   border-radius: 24px;
   width: fit-content;
@@ -1628,8 +1627,8 @@ footer#contact:before {
   padding: 15px 40px;
   transition: 0.5s all ease;
 }.projects .project_12 .projects_img_6 img {
-    height: 409px !important;
-    margin: -40px 0 -50px 40px !important;
+    height: 409px;
+    margin: -40px 0 -50px 40px;
 }
 body.case_stydy_box .header {
     top: 15px;
@@ -1686,13 +1685,22 @@ button.slick-prev.slick-arrow {right: 11%;}
 .hero__heading {
     margin: 80px 0 0;
 }
-
+.dim.slick-slide.slick-current.slick-active .projectCard .img_project img {
+    filter: grayscale(0);
+} .projects .project_common .projects_img img,.projects .project_common .projects_img_6 img{width: 100%;
+        height: auto !important;
+        margin: auto !important;
+    }.projects .project_common {
+    max-height: max-content !important;
+}
 }
 
 
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-
+    .projects .project_common .main_sec_2 {
+        padding: 2rem;
+    }
   .perks_main .content_perks .crd_perk {
     right: -30px;
   }
@@ -1726,7 +1734,11 @@ button.slick-prev.slick-arrow {right: 11%;}
     left: -35px;
     bottom: -30px;
     background-size: 100px;
-  }}
+  }
+.dim {
+    min-height: 630px !important;
+}
+}
 
 
 
@@ -1918,6 +1930,9 @@ p {
 }.statement_box h3.myself_h3 {
     font-size: 20px;
     line-height: 1.5;
+}.interviews_list_slider .slick-list.draggable,.interviews_list_slider  .slick-track {
+    overflow: hidden;
+    /*transform: none !important;*/
 }
 }
 
@@ -1927,7 +1942,7 @@ p {
     .hero__heading .hero_midle_heading h1 img {
         width: 150px;
     }    .hero__heading .hero_midle_heading h1,.about_bnr .hero__heading .hero_midle_heading h1 {
-        font-size: 2.5rem;
+        font-size: 2.60rem;
     }    .main__heading h4 img {
         height: 26px;
     }

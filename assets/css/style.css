@@ -209,7 +209,7 @@ background: linear-gradient(150deg, rgba(107,255,208,1) 0%, rgba(6,227,157,1) 10
     -webkit-text-fill-color: transparent;
     font-size: 9rem;
     font-family: 'gallery_modernregular'; 
-    display: flex;}
+    display: flex;justify-content: center;}
 
     .hero__heading .hero_midle_heading h1 img {
     margin: 0 -30px 0 -50px;
@@ -569,7 +569,7 @@ button.slick-next.slick-arrow {
 }
 
 button.slick-prev.slick-arrow {
-      right: 6%;background: transparent;
+      right: 79px;background: transparent;
 }
 
 
@@ -1643,6 +1643,50 @@ body.case_stydy_box .header {
 }
 
 
+@media only screen and (min-width: 900px) {
+.company_name {
+    width: 45%;
+}
+}
+
+
+
+
+@media only screen and (min-width: 1400px) {
+/*.casestudy-slider {
+    max-height: 700px;
+}*/
+button.slick-prev.slick-arrow, button.slick-next.slick-arrow {bottom: -127px;}
+.header {max-width: 1076px;}
+.main__heading h4 {
+    font: normal normal 300 40px / 1.5 var(--font);
+}p {
+    font: normal normal 300 20px / 1.5 var(--font);
+}.main__heading h2 {
+    font: normal normal 300 60px / 1.5 var(--font-heading-main);
+}.project_exp_box p {
+    font-size: 2rem;
+    line-height: 1.4;
+}.project_exp_box h4 {
+    font-size: 6rem;}
+.philosopy p.sub__heading {
+    font: normal normal 400 25px / 1.5 var(--font);
+}.hero__heading .hero_midle_heading h1 { font-size: 11rem;}
+.hero__heading p {
+    font: normal normal 300 26px / 1.5 var(--font);
+}
+p.signature {
+    font-size: 31px;
+}
+.footer_inner h4 {
+    font: normal normal 500 45px / 1.5 var(--font-heading);}
+
+}
+
+@media only screen and (min-width: 1400px){
+.hero__heading .hero_midle_heading h1 { font-size: 11rem;}
+}
+
 
 
 
@@ -1692,7 +1736,10 @@ button.slick-prev.slick-arrow {right: 11%;}
         margin: auto !important;
     }.projects .project_common {
     max-height: max-content !important;
-}
+}.projects .project_common .main_sec,.projects .project_common .main_sec_2 {
+        padding: 2rem;
+    }.projects .project_common h3 {
+    font: normal normal bold 25px / 1.3 var(--font);}
 }
 
 
@@ -1933,7 +1980,13 @@ p {
 }.interviews_list_slider .slick-list.draggable,.interviews_list_slider  .slick-track {
     overflow: hidden;
     /*transform: none !important;*/
-}
+}    .projects .project_common ul {
+        flex-wrap: wrap;
+        padding: 0px 0 0 20px;
+    }    .projects .project_common ul li:first-child {
+        list-style: unset;
+    }.project_common .projects_img,.projects_img_6{padding: 0 2rem 2rem;
+    }
 }
 
 

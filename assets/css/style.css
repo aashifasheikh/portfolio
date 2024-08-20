@@ -620,7 +620,7 @@ span.projectCard_count {
     color: var(--white);
 }
 .casestudy-slider {
-    max-height: 650px;
+    max-height: 700px;
 }
 .tp-casestudy-area:before, .tp-casestudy-area:after {
     position: absolute;

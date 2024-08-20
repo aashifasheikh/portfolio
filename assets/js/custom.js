@@ -104,9 +104,12 @@ $(document).ready(function () {
       items: 1,
     },
     600: {
+
       items: 2,
     },
     1000: {
+       vertical: false,
+    verticalSwiping: false,
       items: 2,
     },
   },

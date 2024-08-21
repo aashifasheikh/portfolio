@@ -99,20 +99,19 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: true,
     dots: false,  
-    responsive: {
-    0: {
-      items: 1,
+    responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 5
+      }
     },
-    600: {
-
-      items: 2,
-    },
-    1000: {
-       vertical: false,
-    verticalSwiping: false,
-      items: 2,
-    },
-  },
+    {
+      breakpoint: 767,
+      settings: {
+      }
+    }
+  ]
   });  
 
   $('.casestudy-slider32132132').slick( {

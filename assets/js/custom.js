@@ -99,19 +99,12 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: true,
     dots: false,  
-    responsive: [
-    {
-      breakpoint: 1025,
-      settings: {
-        slidesToShow: 5
-      }
-    },
-    {
-      breakpoint: 767,
-      settings: {
-      }
-    }
-  ]
+   responsive: [
+        {
+           breakpoint: 1024,
+           settings: "unslick"
+        }
+     ]
   });  
 
   $('.casestudy-slider32132132').slick( {
